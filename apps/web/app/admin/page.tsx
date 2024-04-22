@@ -1,9 +1,7 @@
-import { Button } from "@repo/ui/button";
 import React from "react";
+import { Admin } from "@repo/ui/admin";
 
-type Props = {};
-
-const Home: React.FC = (props: Props) => {
+const page = () => {
   return (
     <div
       style={{
@@ -14,9 +12,9 @@ const Home: React.FC = (props: Props) => {
         justifyContent: "center",
       }}
     >
-      <Button appName="Web app">Hi Boy</Button>
+      <Admin />
     </div>
   );
 };
 
-export default Home;
+export default page;
